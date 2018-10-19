@@ -1,0 +1,19 @@
+#！/usr/bin/perl
+
+#filename:TXT1.txt
+#author  :Sean
+#version :1.0
+#date    :2018-9-28
+
+print "你的名字是：";
+$name = <stdin>;
+print "你名字叫$name,是个2B！\n";
+print "输入 'yes' or 'no' :";
+$a = <stdin>;
+if ($a eq "yes\n") {
+	print "$name是个2B青年!\n";}
+elsif ($a eq "no\n") {
+	print "怎么可能,$name就是个2B青年！\n";}
+else{
+	print "你看，你都承认了！\n";}
+print "哈哈哈！\n";
